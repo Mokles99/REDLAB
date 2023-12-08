@@ -1,0 +1,21 @@
+.theme-monde-submerge {
+    --couleur-principale: #1565c0; /* Bleu océan */
+    --couleur-secondaire: #b3e5fc; /* Bleu ciel */
+    --couleur-accent: #ffffff; /* Blanc écume */
+    --police-principale: 'Comic Sans MS', cursive, sans-serif;
+    background-color: var(--couleur-secondaire);
+    color: var(--couleur-principale);
+  }
+  
+  .theme-monde-submerge h1, .theme-monde-submerge h2, .theme-monde-submerge h3 {
+    color: var(--couleur-accent);
+  }
+  
+  .theme-monde-submerge button {
+    background-color: var(--couleur-principale);
+    color: var(--couleur-accent);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  

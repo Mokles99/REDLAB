@@ -1,0 +1,110 @@
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(200px); /* Vous pouvez ajuster la valeur pour contrôler l'amplitude du mouvement */
+    }
+  }
+  
+  .bouton-esquive {
+    animation: moveUpDown 0.3s ease-in-out infinite; /* Ajustez la durée pour contrôler la vitesse */
+  }
+  
+
+  .dodging-button {
+    transition: transform 0.3s ease;
+  }
+  
+  .move-left {
+    transform: translateX(-100px); /* Déplace le bouton à gauche */
+  }
+  
+  .move-right {
+    transform: translateX(100px); /* Déplace le bouton à droite */
+  }
+
+  .bg-darkCard {
+    background-color: #1a1a2e; /* Couleur de fond sombre */
+  }
+  
+  .animation-icon {
+    /* Ajoutez ici les styles pour l'animation de l'icône */
+  }
+  
+  .spooky-text {
+    text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.6); /* Effet de texte effrayant */
+  }
+  
+  .ghost-button {
+    /* Styles pour un bouton fantôme */
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  .ghost-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  
+  .spooky-card {
+    background-color: #2a2a2a; /* Fond gris sombre */
+    border: 1px solid #444; /* Bordure légère */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ombre portée pour un effet en relief */
+    transition: all 0.3s ease; /* Transition fluide pour les animations */
+  }
+  
+  .animate-left:hover {
+    transform: translateX(-10px); /* Déplace légèrement la carte vers la gauche au survol */
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5); /* Ajuste l'ombre portée pour l'effet de mouvement */
+  }
+  
+  .animate-right:hover {
+    transform: translateX(10px); /* Déplace légèrement la carte vers la droite au survol */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Ajuste l'ombre portée pour l'effet de mouvement */
+  }
+  
+  .default-theme {
+    background-color: #f0f0f0; /* Fond clair par défaut */
+    color: #333; /* Couleur de texte par défaut */
+  }
+  
+  /* Vous pouvez ajouter d'autres styles pour différents thèmes cauchemardesques ici */
+  
+  .disordered-layout {
+    /* Modifiez la disposition générale */
+  }
+  
+  .disordered-image-container {
+    transform: rotate(-30deg); /* Inclinez légèrement les images */
+  }
+  
+  .disordered-image {
+    transform: scale(1.1) rotate(30deg); /* Agrandissez et tournez les images */
+  }
+  
+  .disordered-text-container {
+    transform: skewY(-40deg); /* Inclinez légèrement le texte */
+  }
+  
+  .disordered-heading {
+    font-size: 2.5rem; /* Modifiez la taille du titre */
+    color: #ff6347; /* Couleur du titre */
+  }
+  
+  .disordered-paragraph {
+    text-align: justify; /* Justifiez le paragraphe */
+    text-shadow: 2px 2px #ffffff; /* Ajoutez une ombre portée */
+  }
+  .footer-container {
+    transform: rotate(180deg);
+    background: linear-gradient(45deg, #ff00ff, #ffff00, #00ff00, #0000ff); /* Exemple d'arrière-plan avec des couleurs vives */
+    overflow: hidden; /* Pour éviter tout débordement dû à la rotation */
+  }
+  
+  .footer-content {
+    transform: rotate(-90deg); /* Contre-rotation pour compenser */
+  }
+  

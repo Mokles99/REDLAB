@@ -1,0 +1,13 @@
+.theme-glacial-melt {
+    background: linear-gradient(180deg, #e0f7fa 0%, #b3e5fc 100%);
+    color: #006064;
+    background-size: 400% 400%;
+    animation: IceAnimation 20s ease infinite;
+  }
+  
+  @keyframes IceAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  

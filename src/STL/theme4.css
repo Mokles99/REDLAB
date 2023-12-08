@@ -1,0 +1,13 @@
+.theme-rising-seas {
+    background: linear-gradient(180deg, #a2d5f2 0%, #70b7e0 100%);
+    color: #01579b;
+    background-size: 400% 400%;
+    animation: WaterAnimation 15s ease infinite;
+  }
+  
+  @keyframes WaterAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  

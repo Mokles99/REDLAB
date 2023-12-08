@@ -1,0 +1,20 @@
+.theme-nature-florissante {
+  --couleur-principale: #4caf50; /* Vert forêt */
+  --couleur-secondaire: #81c784; /* Vert clair */
+  --couleur-accent: #ffee58; /* Jaune soleil */
+  --police-principale: 'Arial', sans-serif;
+  background-color: var(--couleur-secondaire);
+  color: var(--couleur-principale);
+}
+
+.theme-nature-florissante h1, .theme-nature-florissante h2, .theme-nature-florissante h3 {
+  color: var(--couleur-accent);
+}
+
+.theme-nature-florissante button {
+  background-color: var(--couleur-accent);
+  color: var(--couleur-principale);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

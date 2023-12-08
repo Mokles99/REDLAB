@@ -1,0 +1,13 @@
+.theme-heatwave {
+    background: linear-gradient(180deg, #ffeb3b 0%, #ffc107 100%);
+    color: #ff6f00;
+    background-size: 400% 400%;
+    animation: HeatwaveAnimation 12s ease infinite;
+  }
+  
+  @keyframes HeatwaveAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  

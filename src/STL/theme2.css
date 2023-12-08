@@ -1,0 +1,21 @@
+.theme-secheresse-desertification {
+    --couleur-principale: #a1887f; /* Brun terre */
+    --couleur-secondaire: #e0e0e0; /* Gris sable */
+    --couleur-accent: #ff7043; /* Orange désert */
+    --police-principale: 'Roboto', sans-serif;
+    background-color: var(--couleur-secondaire);
+    color: var(--couleur-principale);
+  }
+  
+  .theme-secheresse-desertification h1, .theme-secheresse-desertification h2, .theme-secheresse-desertification h3 {
+    color: var(--couleur-accent);
+  }
+  
+  .theme-secheresse-desertification button {
+    background-color: var(--couleur-accent);
+    color: var(--couleur-secondaire);
+    border: 1px solid var(--couleur-accent);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  

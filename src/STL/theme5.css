@@ -1,0 +1,13 @@
+.theme-forest-fires {
+    background: linear-gradient(180deg, #ffcccb 0%, #ff8a8a 100%);
+    color: #9e0000;
+    background-size: 400% 400%;
+    animation: FireAnimation 10s ease infinite;
+  }
+  
+  @keyframes FireAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
